@@ -15,5 +15,5 @@ app.use(express.json());
 app.use("/api", routes);
 
 app.listen(port, () => {
-    console.log(`Servidor corriendo en el puerto ${port}`);
+    console.log(`Servidor corriendo en el puerto ${port}`); //ssss
 });
